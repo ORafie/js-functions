@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <!-- https://developer.mozilla.org/ru/docs/Web/HTML/Element/input -->
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form action="">
+        <div>
+            <label for="text2">1. Text</label>
+            <input type="text" id="text2">
+        </div>
+        <div>
+            <label for="text2">2. Text</label>
+            <input type="text" id="text2" value="Text by default">
+        </div>
+        <div>
+            <label for="text2">2.1 Text</label>
+            <input type="text" id="text2" value="Input readonly" readonly>
+        </div>
+        <div>
+            <label for="email">3. Email</label>
+            <input type="email" id="email" placeholder="Type your email">
+        </div>
+        <div>
+            <label for="password">4. Password</label>
+            <input type="password" id="password">
+        </div>        
+        <div>
+            <label for="number">5. Number</label>
+            <input type="number" id="number" min="0">
+        </div>
+        <div>
+            <label for="range">6. Range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date">7. Date</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="color">8. Color</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">9. Message</label>
+            <br>
+            <textarea name="" id="message" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">10. Your sex</label>
+            <select name="" id="sex">
+                <option value="male">Man</option>
+                <option value="female" selected>Woman</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label>11. Quontity of work</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 5
+            <input type="radio" name="work"> 10+
+        </div>
+        <div>
+            <label>12. Food</label>
+            <input type="checkbox" name="food"> Bread
+            <input type="checkbox" name="food"> Berries
+            <input type="checkbox" name="food"> Milk
+            <input type="checkbox" name="food"> Apples
+        </div>
+
+        <label>13. Submit </label><input type="submit" value="Send form">
+        <br>
+        <label>14. Submit </label><button type="submit">Send form</button>
+    </form>
+</body>
+</html>
