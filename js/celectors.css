@@ -17,7 +17,7 @@ body {
 .card {
     padding: 10px;
     background: #fff;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 .card p {
@@ -29,12 +29,12 @@ body {
     /* padding: 10px; */
 }
 .html {
-    background: orange;
+    background: #ed7138;
     color: white;
 }
 
 .css {
-    background: blue;
+    background: #4997c8;
     color: white;
 }
 

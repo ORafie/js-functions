@@ -1,0 +1,32 @@
+
+.color-1 {
+color: darkmagenta;
+}
+/*RedGreenBlue */
+/* 00 - ff */
+.color-2 {
+color: #4b0082;
+/* color: #ff0000 = #f00 - red*/
+/* color: #00ff00 = #0f0 - green*/
+/* color: #0000ff = #00f - blue/
+/* color: #000000 = #000 - black absolute*/
+/* color: #ffffff = #fff - white absolute*/
+/* color: #eeeeee = #eee - grey*/
+/* color: #dddddd = #ddd - white almost*/
+/* color: #111111 = #111 - black almost*/
+
+}
+.color-3 {
+color: #ddd;
+background: #f1f1f1;
+}
+/* 0 - 255 */
+.color-4 {
+color: rgb(0, 0, 0);
+opacity: 0.5;
+background: #fdfdfd;
+}
+.color-5 {
+color: rgba(0, 150, 0, 0.5);
+background-color: #dfdfdf;
+}
